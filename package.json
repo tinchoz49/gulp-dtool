@@ -1,0 +1,36 @@
+{
+  "name": "gulp-dtool",
+  "version": "0.0.2",
+  "description": "A set of tools and tasks for gulp to make deploys easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tinchoz49/gulp-dtool.git"
+  },
+  "keywords": [
+    "deploy",
+    "gulp",
+    "tool",
+    "ssh",
+    "rsync"
+  ],
+  "author": "Martin Acosta <tinchoz49@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tinchoz49/gulp-dtool/issues"
+  },
+  "homepage": "https://github.com/tinchoz49/gulp-dtool",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "tap-spec": "^2.2.2",
+    "tape": "^3.5.0"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "nodegit": "^0.3.3",
+    "simple-ssh": "^0.8.3"
+  }
+}
